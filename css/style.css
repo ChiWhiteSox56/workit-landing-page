@@ -1,3 +1,33 @@
-.test {
-	color: deeppink;
+:root {
+	/* --inactive-button-color: #44ffa1;
+	--inactive-button-text-color: #24053e;
+	--active-button-color: #44ffa100;
+	--active-button-text-color: #44ffa1;
+	--text-underline-color: #24053e;
+	--header-text-color: dodgerblue;
+	--subheader-and-body-color: #24053e; */
+	--white: dodgerblue;
+	--eucalyptus: #44ffa1;
+	--dark-purple: #24053e;
+	--davys-grey: #584d62;
+	--ghost-white: #fcf8ff;
+}
+
+@font-face {
+	font-family: Fraunces;
+	src: url(/assets/fonts/fraunces/Fraunces-VariableFont_SOFT\,WONK\,opsz\,wght.ttf);
+}
+
+h1 {
+	color: var(--white);
+	font-family: "Fraunces";
+	font-size: 80px;
+	font-weight: 600;
+}
+
+h2 {
+	color: var(--white);
+	font-family: "Fraunces";
+	font-size: 56px;
+	font-weight: 600;
 }
